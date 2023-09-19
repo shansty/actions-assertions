@@ -40,7 +40,7 @@ public class Task02 {
         page.locator("//select[@class = 'react-datepicker__month-select']").selectOption("May");
         page.locator("//select[@class = 'react-datepicker__year-select']").selectOption("1999");
         page.locator("//label[@for='hobbies-checkbox-1']").setChecked(true);
-        page.locator("//input[@id = 'uploadPicture']").setInputFiles(Paths.get("C:\\\\src\\file.jpg"));
+        page.locator("//input[@id = 'uploadPicture']").setInputFiles(Paths.get("src/file.jpg"));
         page.locator("//input[@id='subjectsInput']").press("Enter");
 
 
